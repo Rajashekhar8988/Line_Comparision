@@ -7,6 +7,7 @@ import java.util.Scanner;
 	 int length1;
 	 int length2;
 
+	 //length of first line
 	public void length1(int a,int b,int c,int d) {
 		this.x1=a;
 		this.y1=b;
@@ -15,6 +16,7 @@ import java.util.Scanner;
 		length1=(int) Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 		System.out.println("Length of the Line1 is : "+length1);	
 	}
+	 //length of second line
 		public void length2(int p,int q,int r,int s) {
 			this.x1=p;
 			this.y1=q;
@@ -23,6 +25,7 @@ import java.util.Scanner;
 			length2=(int) Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 			System.out.println("Length of the Line2 is : "+length2);
 	}
+	 //Comparison of two lines using Equals method
 		void equalsMethod() {
 			String str1=Double.toString(length1);
 			String str2=Double.toString(length2);
